@@ -40,7 +40,7 @@ export default function Register(){
                   required
                   fullWidth
                   id="firstName"
-                  label="First Name"
+                  label="First Namee"
                   autoFocus
                 />
               </Grid>
