@@ -7,13 +7,13 @@ import EditProfile from './components/editprofile';
 import ViewPosts from './components/viewposts';
 import UserDashboard from './components/userdashboard';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
     <Route path='/' element={<UserDashboard/>}></Route>
-
       <Route path="/login" element={<Login/>}> </Route>
       <Route path='/register' element={<Register/>}></Route>
       <Route path='/myprofile' element={<MyProfile/>}></Route>
