@@ -29,7 +29,6 @@ export default class Register extends React.Component{
      this.handlecheckbox=this.handlecheckbox.bind(this);
   }
   handlechange(e){
-    console.log(this.state.email,this.state.firstname);
     this.setState({
       [e.target.name]:e.target.value
     });
@@ -143,9 +142,9 @@ handleClick(e){
                         name="confirmpassword"
                         label="ConfirmPassword"
                         type="password"
-                        id="password"
+                        id="confirmpassword"
                         autoComplete="new-password"
-                        value={this.state.password}
+                        value={this.state.confirmpassword}
                         onChange={this.handlechange}
 
                       />

@@ -15,7 +15,7 @@ import { red } from '@mui/material/colors';
 import Button from '@mui/material/Button';
 
 
-export default function ViewPosts() {
+export default function MyProfile() {
   
   return (
             <Card 
